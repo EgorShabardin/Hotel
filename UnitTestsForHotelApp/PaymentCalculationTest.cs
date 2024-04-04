@@ -1,5 +1,5 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System;
+using Hotel;
 
 namespace UnitTestsForHotelApp
 {
@@ -9,7 +9,7 @@ namespace UnitTestsForHotelApp
         [TestMethod]
         public void CalculatePaymentFor_10DaysOfStay()
         {
-
+            var guestCardInformationForm = new GuestCardInformationForm();
         }
     }
 }

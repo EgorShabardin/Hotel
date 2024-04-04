@@ -56,10 +56,7 @@ namespace Hotel
 
                 if ((statusNameRadioButton != null) && (statusNameRadioButton.Checked == true))
                 {
-                    for (int i = guestListTableLayoutPanel.Controls.Count - 1; i > 0; i--)
-                    {
-                        guestListTableLayoutPanel.Controls[i].Dispose();
-                    }
+                    ClassOfMethodsForUnitTests.DeletesContentOfTableLayoutPanel(guestListTableLayoutPanel);
 
                     var guests = database.HotelGuests.Where(guests => guests.GuestStatusNavigation.StatusName
                                                                             == statusNameRadioButton.Text).ToList();
@@ -270,10 +267,7 @@ namespace Hotel
         {
             logger.Info("Пользователь нажал на кнопку поиска");
 
-            for (int i = guestListTableLayoutPanel.Controls.Count - 1; i > 0; i--)
-            {
-                guestListTableLayoutPanel.Controls[i].Dispose();
-            }
+            ClassOfMethodsForUnitTests.DeletesContentOfTableLayoutPanel(guestListTableLayoutPanel);
 
             for (int i = 1; i < guestStatusesTableLayoutPanel.Controls.Count; i++)
             {

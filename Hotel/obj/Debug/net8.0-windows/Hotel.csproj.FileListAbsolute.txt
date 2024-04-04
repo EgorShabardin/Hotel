@@ -128,3 +128,4 @@ D:\Домашние работы КФУ\C#\Hotel\Hotel\bin\Debug\net8.0-windows\
 D:\Домашние работы КФУ\C#\Hotel\Hotel\bin\Debug\net8.0-windows\NLog.dll
 D:\Домашние работы КФУ\C#\Hotel\Hotel\obj\Debug\net8.0-windows\Hotel.GuestCardInformationForm.resources
 D:\Домашние работы КФУ\C#\Hotel\Hotel\obj\Debug\net8.0-windows\Hotel.Properties.Resources.resources
+D:\Домашние работы КФУ\C#\Hotel\Hotel\obj\Debug\net8.0-windows\Hotel.sourcelink.json

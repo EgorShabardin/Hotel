@@ -39,7 +39,9 @@ namespace Hotel
 
         private void AmountOfDaysNumericUpDownValueChanged(object sender, EventArgs e)
         {
-            paymentLabel.Text = $"Оплата {dailyFee * amountOfDaysNumericUpDown.Value} рублей";
+
+            paymentLabel.Text = $"Оплата {ClassOfMethodsForUnitTests
+                        .CalculationOfPaymentForAccommodation(amountOfDaysNumericUpDown.Value, dailyFee)} рублей";
             amountOfDaysNumericUpDown.Value = amountOfDaysNumericUpDown.Value;
         }
 
