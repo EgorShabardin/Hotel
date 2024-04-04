@@ -17,8 +17,6 @@
 mono_crash.*
 
 # Build results
-[Dd]ebug/
-[Dd]ebugPublic/
 [Rr]elease/
 [Rr]eleases/
 x64/
@@ -28,8 +26,6 @@ x86/
 [Aa][Rr][Mm]64/
 bld/
 [Oo]ut/
-[Ll]og/
-[Ll]ogs/
 
 # Visual Studio 2015/2017 cache/options directory
 .vs/
@@ -41,7 +37,6 @@ Generated\ Files/
 
 # MSTest test Results
 [Tt]est[Rr]esult*/
-[Bb]uild[Ll]og.*
 
 # NUnit
 *.VisualState.xml
